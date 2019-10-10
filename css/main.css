@@ -117,7 +117,7 @@ h1, h2, h3{
 /* section1 */
 .section1{
   text-align: center;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   background-color: lightgrey;
 }
 
@@ -184,8 +184,9 @@ h1, h2, h3{
 }
 
 .smallcont{
-  width: 75%;
-  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .grid h3{
@@ -198,8 +199,15 @@ h1, h2, h3{
 }
 
 /* section3 */
+
+.flexposition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .imgcont{
-max-width: 100%;
+  max-width: 100%;
   padding-top: 5%;
 }
 
@@ -244,6 +252,16 @@ max-width: 100%;
   background-size:contain;
 }
 
+.container-slogan{
+  display: flex;
+  justify-content: center;
+}
+
+.container-button{
+  display: flex;
+  justify-content: center;
+}
+
 .container-button button{
   font-size: 16px;
   color: #0069ff;
@@ -251,7 +269,6 @@ max-width: 100%;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 42.5%;
   margin-bottom: 5%;
 }
 
